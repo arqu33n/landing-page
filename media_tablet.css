@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 704px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .top-content {
+    background-image: url(img/illustration.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-right: auto;
+    margin-top: 120px;
+  }
+  .cards {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+  .main-cards {
+    margin-bottom: 32px;
+  }
+  .main-illustrations-1 {
+    display: flex;
+    background-image: url(img/illustration-1.png);
+    position: relative;
+    height: 296.68px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .main-illustrations-1::after {
+    content: " ";
+    position: absolute;
+    background-image: url(img/Group.svg);
+    background-repeat: no-repeat;
+    background-size: 296.68px;
+    top: -10%;
+  }
+  .main-illustrations-2 {
+    display: flex;
+    background-image: url(img/illustration-2.png);
+    position: relative;
+    width: 336px;
+    height: 253px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .main-illustrations-3 {
+    display: flex;
+    background-image: url(img/illustration-3.png);
+    position: relative;
+    width: 336px;
+    height: 253px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .footer-description {
+    width: 336px;
+  }
+  .footer-text {
+    margin-left: 89px;
+  }
+
+  .footer-button {
+    padding: 3px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    width: 133px;
+    height: 31.48px;
+    margin-right: 89px;
+    margin-left: 50px;
+  }
+  .footer-list {
+    margin-left: 89px;
+    margin-top: 112px;
+  }
+  ol {
+    display: block;
+  }
+  li {
+    padding-left: 36px;
+    width: 515px;
+    margin-bottom: 25px;
+  }
+  .footer-copyright {
+    margin-left: 89px;
+    margin-top: 39px;
+  }
+}
