@@ -1,59 +1,75 @@
 @media (max-width: 768px) {
-  .top__container {
-    max-width: 707px;
+  .container {
+    max-width: 704px;
     margin: 0 auto;
     position: relative;
   }
-  .top__banner-description {
-    width: 520px;
+  .top-content {
+    background-image: url(img/illustration.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-right: auto;
+    margin-top: 120px;
   }
-  .container {
-    width: 520px;
-  }
-  .main_content {
+  .cards {
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-  }
-  .main__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .main__content-info {
-    padding-top: 64px;
-  }
-  .main__content-form {
-    width: 520px;
-    height: 780px;
-  }
-  .form__inputs {
-    display: flex;
-    flex-direction: column;
-    margin-top: 48px;
-  }
-  .form__submit-button {
-    width: 412.15px;
-    height: 70.2px;
-  }
-  .main__content-map {
-    position: relative;
-    left: -124px;
-    width: 768px;
-    overflow: visible;
+    justify-content: center;
     margin-bottom: 64px;
   }
-  .footer {
-    height: 100%;
+  .main-cards {
+    margin-bottom: 32px;
   }
-  .footer__description {
+  .main-illustrations-1 {
+    display: flex;
+    background-image: url(img/illustration-1.png);
+    position: relative;
+    height: 296.68px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .main-illustrations-1::after {
+    content: " ";
+    position: absolute;
+    background-image: url(img/Group.svg);
+    background-repeat: no-repeat;
+    background-size: 296.68px;
+    top: -10%;
+  }
+  .main-illustrations-2 {
+    display: flex;
+    background-image: url(img/illustration-2.png);
+    position: relative;
+    width: 336px;
+    height: 253px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .main-illustrations-3 {
+    display: flex;
+    background-image: url(img/illustration-3.png);
+    position: relative;
+    width: 336px;
+    height: 253px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .footer-description {
     width: 336px;
   }
-  .footer__text {
+  .footer-text {
     margin-left: 89px;
   }
 
-  .footer__button {
+  .footer-button {
     padding: 3px;
     font-size: 16px;
     line-height: 26px;
@@ -64,7 +80,7 @@
     margin-right: 89px;
     margin-left: 50px;
   }
-  .footer__list {
+  .footer-list {
     margin-left: 89px;
     margin-top: 112px;
   }
@@ -76,7 +92,7 @@
     width: 515px;
     margin-bottom: 25px;
   }
-  .footer__copyright {
+  .footer-copyright {
     margin-left: 89px;
     margin-top: 39px;
   }
